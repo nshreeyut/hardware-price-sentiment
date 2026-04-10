@@ -1,0 +1,19 @@
+# Environment / credentials
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data files — commit only if small and intentional
+data/reddit/
+data/prices/
+data/processed/
+
+# OS
+.DS_Store
