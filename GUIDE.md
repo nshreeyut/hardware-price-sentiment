@@ -135,7 +135,7 @@ If there's a merge conflict, reach out to the group before force-pushing anythin
 |---|---|
 | `uv: command not found` | Restart terminal, or run `source ~/.zshrc` |
 | `ModuleNotFoundError` | Run `uv sync` again from inside the repo folder |
-| Jupyter kernel not found | Run `uv run python -m ipykernel install --user --name web-mining` |
+| Jupyter kernel not found | Make sure you launched with `uv run jupyter lab` from inside the `hardware-price-sentiment` folder, not a system Jupyter install |
 | Chrome not found by Selenium | Download from https://www.google.com/chrome |
 | spaCy model missing | Run `uv run python -m spacy download en_core_web_sm` |
 | `git push` rejected | Run `git pull origin main` first, resolve any conflicts, then push |
