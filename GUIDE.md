@@ -44,7 +44,13 @@ uv --version
 
 ## Step 3 — Install All Dependencies
 
-From inside the repo folder:
+Make sure you are inside the cloned repo folder before running anything here. After Step 1 you should already be there, but double-check:
+
+```bash
+cd hardware-price-sentiment
+```
+
+Then install everything:
 ```bash
 uv sync
 ```
@@ -68,15 +74,17 @@ You should see: `All good`
 
 ---
 
-## Step 5 — Open Jupyter
+## Step 5 — Open JupyterLab
+
+Make sure you are in the repo root (`hardware-price-sentiment/`), then run:
 
 ```bash
-uv run jupyter notebook
+uv run jupyter lab
 ```
 
-This opens Jupyter in your browser. Navigate to `notebooks/` and open the notebook assigned to you (see README.md for role assignments).
+This opens JupyterLab in your browser with the full project already visible in the left-hand file browser. Open the `notebooks/` folder and click on the notebook assigned to you (see README.md for role assignments). Everything — data folders, other notebooks — is right there in the sidebar.
 
-**VS Code alternative:** Open the repo folder in VS Code, install the Jupyter extension, and open your `.ipynb` file directly. When prompted to select a kernel, pick the one pointing to `.venv` or named `web-mining`.
+When you are done working, save your notebook (`Ctrl+S` / `Cmd+S`) and follow Step 7 to push your changes.
 
 ---
 
