@@ -43,7 +43,7 @@ MiningProject/
 ### Person 1 — Price Scraping
 **Notebook:** `notebooks/01_price_scraping.ipynb`
 
-Scrape historical and current prices for target hardware (DDR5 RAM, mid-range GPUs) from PCPartPicker and/or Newegg using BeautifulSoup and Selenium. Clean and normalize into a weekly time series.
+Scrape the top 10 Amazon Best Sellers per category (CPU, GPU, RAM) to identify products, match each to Pangoly.com, and pull 6 months of price history across all available retailers (Newegg, BestBuy, B&H, etc.) via Pangoly's internal price-chart API. Aggregate to weekly averages.
 
 **Output:** `data/prices/prices_clean.csv`
 **Columns:** `date | product | category | price_usd | retailer | url`
@@ -103,7 +103,7 @@ Run LDA topic modeling on Reddit posts to identify dominant topics during price 
 
 ## Status
 
-- [ ] Person 1: Price scraping pipeline
+- [x] Person 1: Price scraping pipeline
 - [ ] Person 2: Reddit scraping pipeline
 - [ ] Person 3: Preprocessing + sentiment
 - [ ] Person 4: Topic modeling + correlation
