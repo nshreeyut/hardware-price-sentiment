@@ -105,7 +105,7 @@ Run LDA topic modeling on Reddit posts to identify dominant topics during price 
 
 - [x] Person 1: Price scraping pipeline
 - [x] Person 2: Reddit scraping pipeline (see Data Coverage Limitations below)
-- [ ] Person 3: Preprocessing + sentiment
+- [x] Person 3: Preprocessing + sentiment
 - [ ] Person 4: Topic modeling + correlation
 
 ---
